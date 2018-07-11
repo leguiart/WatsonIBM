@@ -5,20 +5,17 @@
 
 Install IBM Cloud CLI
 
-'''
+```
 curl -sL https://ibm.biz/idt-installer | bash
 ibmcloud login
 ibmcloud target -o org -s space
+```
 
-'''
 Initialize The API
-'''
+```
 bluemix api https://api.ng.bluemix.net
-'''
-
-'''
 git clone https://github.com/watson-developer-cloud/python-sdk/tree/develop/examples
-'''
+```
 
 ### Running
 
